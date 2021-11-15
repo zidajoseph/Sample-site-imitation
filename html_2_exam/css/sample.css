@@ -1,0 +1,82 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    text-align: center;
+  }
+  .main-header {
+    padding-bottom: 15%;
+    width: 100%;
+    background-size: cover;
+    background-image: url("../images/header.jpg");
+    background-attachment: fixed;
+  }
+  /* from here */
+  header {
+    height: 50px;
+    background-color: #2B2B2B;
+  }
+  header ul {
+    padding-top: 12px;
+  }
+  header ul a {
+    color: white;
+    text-decoration: none;
+    margin-right: 16px;
+  }
+  header li {
+    list-style: none;
+  }
+
+  .left{
+    float: left;
+  }
+  .right{
+    float: right;
+  }
+
+  header ul:after {
+
+  }
+  /* Up to here is the implementation of the header part */
+  .main-header img {
+    width: 13%;
+    position: relative;
+    top: 100px;
+    left:10px;
+  /* Implementation of main image (white “Achieve” text image) */
+  }
+  .about {
+    font-size: 1.5rem;
+  /* About Implementation of Achieve part */
+  }
+  #about-child{
+    font-size: 0.8rem;
+  }
+  /* from here */
+  .function {
+    background-color: #D3D3D3;
+    float: left;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .function-images {
+    margin: auto;
+    position: relative;
+  }
+  .function-image {
+    float: left;
+    width: 25%;
+  }
+  /* Up to here is the implementation of the function part */
+  footer {
+    background-color: #283A4B;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+  /* Implementation of footer part */
+  }
+  #copyright{
+    font-size: 0.8rem;
+  }
